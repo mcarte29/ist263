@@ -9,14 +9,20 @@
              }
              p {font-family:Arial, Helvetica, sans-serif;
                 font-size: 2em;
-                font-weight:300
+                font-weight:900;
             }
-
+            p, a {color:orange;}
+            #numberone {color:black;}
+            .green {color:green;}
         </style>
     </head>
 
     <body>
-        <h1>Header</h1>
-        <p>Content Goes Here</p>
+        <h1 id="numberone">Header</h1>
+        <h1 id="numbertwo" class="green">Header</h1>
+
+        <h2>Content Goes <a href="https://syr.edu">Here</a></h2>
+
+        <p class="green"> Content goes <a href="https://syr.edu">Here</a> </p>
     </body>
 </html>
