@@ -11,10 +11,14 @@
             }
             .image2 {
                 float: right;
-                padding: 0 1em 1em 0;
+                padding: 0 0 1em 1em;
             }
             .clearfloat {clear:both;}
-
+           .outercontainer {display: flex; border: 5px solid black;}
+           .outercontainer div {background-color: aqua; padding: 1em;
+            border: 3px solid burlywood;}
+            .fb1 {flex: 5;}
+            .fb2 {flex: 2;}
         </style>
     </head>
     <body>
@@ -47,6 +51,13 @@
         <p>Australia's 9 News network in March said a cyberattack disrupted its live broadcasts. And in the US, local stations owned by the Cox Media Group were hit in June.</p>
         <p>The Record, a cybersecurity news outlet, was first to report on the ransomware incident at Sinclair.</p>
 
+        <!-- Flexbox-->
+        <div class="outercontainer">
+            <div class="fb1">Flex Item1</div>
+                <div>Inner Div</div>
+            <div class="fb2">Flex Item2</div>
+            <div class="fb3">Flex Item3</div>
+        </div>
 
     </body>
 </html>
