@@ -1,13 +1,18 @@
 body {
     background-color: #ffffff;
-    color: #000000; 
+    color: #000000;
+    font-family: arial, sans-serif; 
     }
 
  a:link{color: #855832;}
 
  h1, h2, h3, h4 {
     color: #362925;
+    font-size: 2em;
  }
+ .evenrow {
+    background-color: mistyrose;
+    }
 
  nav {
     background-color: #dbc9b8;
