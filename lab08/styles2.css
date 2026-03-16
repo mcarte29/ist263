@@ -46,3 +46,7 @@ footer p {
 .form {display: flex;}
 .form-p1 {flex: 1; background-color: #ffffff; padding: 20px; border-radius: 1em;}
 .form-p2 {flex: 2; background-color: #ffffff; padding: 20px; border-radius: 1em;}
+
+.contact {
+    background-color: #e9e6e3;
+}
