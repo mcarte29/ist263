@@ -41,11 +41,11 @@ footer p {
    float: right;
 }
 
-.address {display: flex; background-color: #ffffff; border-radius: 1em;}
+.address {display: flex; background-color: #ffffff; border-radius: 1em; margin: 20px;}
 .address-p1, .address-p2  {flex: 1; padding: 20px;}
-.form {display: flex; background-color: #ffffff;border-radius: 1em;}
-.form-p1 {flex: 1;padding: 20px; margin: 10px;} 
-.form-p2 {flex: 2; padding: 20px; margin: 10px;}
+.form {display: flex; background-color: #ffffff;border-radius: 1em; margin: 20px;}
+.form-p1 {flex: 1;padding: 20px;} 
+.form-p2 {flex: 2; padding: 20px;}
 
 .contact {
     background-color: #b8b6b4;
