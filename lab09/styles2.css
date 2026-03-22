@@ -41,9 +41,9 @@ footer p {
    float: right;
 }
 
-.address {display: flex; background-color: #ffffff; border-radius: 1em; margin: 20px;}
+.address {display: flex; background-color: #ffffff; border-radius: 1em; margin:20px;}
 .address-p1, .address-p2  {flex: 1; padding: 20px;}
-.form {display: flex; background-color: #ffffff;border-radius: 1em; margin: 20px;}
+.form {display: flex; background-color: #ffffff;border-radius: 1em; margin:20px;}
 .form-p1 {flex: 1;padding: 20px;} 
 .form-p2 {flex: 2; padding: 20px;}
 
