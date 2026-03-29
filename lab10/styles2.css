@@ -1,0 +1,67 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: arial, sans-serif; 
+    }
+
+ a:link{color: #855832;}
+
+ h1 {
+    color: #362925;
+    font-size: 2em;
+ }
+
+ h2, h3, h4 {
+    color: #362925;
+    font-size: 1em;
+ }
+
+ .evenrow {
+    background-color: mistyrose;
+    }
+
+ nav {
+    background-color: #dbc9b8;
+    padding: 10px;
+    margin-bottom: 30px;
+ }
+
+ nav a:hover {
+    color: #a17e61;
+}
+
+nav a:link {
+    color: #74482a;
+}
+
+footer p {
+    margin: 2px;
+}
+.tagline {
+   float: right;
+}
+
+.address {display: flex; background-color: #ffffff; border-radius: 1em; margin:20px;}
+.address-p1, .address-p2  {flex: 1; padding: 20px;}
+.form {display: flex; flex-wrap: wrap; background-color: #ffffff; border-radius: 1em; margin:20px;}
+.form-p1 {flex: 1;padding: 20px;} 
+.form-p2 {flex: 2; padding: 20px;}
+
+.contact {
+    background-color: #b8b6b4;
+}
+
+.skill-title { text-align: center;}
+.firstrow { display: flex; border-radius: 1em; padding: 20px;}
+.skillstable {  margin: 0 auto; flex-basis: 50%;}
+.skillsimage { text-align: center; flex-basis: 50%;}
+
+/* this is the banner image */
+.banner-img { max-width: 100%;height: auto;}
+
+/*this is going to make the navigation stack once it is on a smaller screen */
+@media only screen and (max-width: 768px) {
+    nav a {display: block;width: 100%; padding: 5px; margin-bottom:5px}
+    nav span { display:none;}
+   }
+   
