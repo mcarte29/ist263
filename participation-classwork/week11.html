@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>First Java Program</title>
+        <style>
+            h1 {
+                cursor: pointer;
+            }
+        </style>
+        <script> 
+            function SecondBlock() {
+                alert('Second Alert');
+            }
+            function hovery() {
+                alert("I'm hovering over this text")
+            }
+            function clicky() {
+                alert("I clicked on a single word")
+            }
+        </script>
+    </head>
+
+    <body>
+        <script>alert('I am sending an alert!');</script> 
+        <!-- This is going to be like a popup mesage that sends an alert-->
+        <h1 onclick="SecondBlock()">Classic First Javascript Program</h1>
+        <p onmouseover="hovery()">Content Goes Here</p> 
+        <p>Yadda <a href="#" onclick="clicky()">yadda</a> yadda</p>
+    </body>
+</html>
+
+<!-- Events are actions that happen in the browser.-->
+<!-- onclick is an event. If i click h1 its going to run the second alert. -->
