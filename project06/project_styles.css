@@ -47,3 +47,13 @@
 #bigimages {float: left;}
 #recipeinfo {float: right; width: 500px;}
 #thumbnails {clear: both;}
+
+nav {
+    background-color: #b9ada2;
+    padding: 10px;
+    margin-bottom: 30px; }
+nav a:link {
+    color: #745a45;
+}
+nav a:hover {
+    color: #978373; }
