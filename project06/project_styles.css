@@ -1,0 +1,49 @@
+ body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        background-color: #dcd6d0;
+        color: #513116;
+         }
+/*this is going to make the navigation stack once it is on a smaller screen */
+@media only screen and (max-width: 768px) {
+    nav a {display: block;width: 100%; padding: 5px; margin-bottom:5px}
+    nav span { display:none;}
+   }
+
+   
+/* the occassion page first flex box for the descriptions*/
+.occasion_decription {
+    display: flex;
+    background-color: #b9ada2;
+    border-radius: 1em;
+    margin: 20px;
+    padding: 20px;
+}
+
+.od_1,.od_2 { flex:1; padding: 20px;}
+
+/* Make images the same size */
+.christmas_tree, .cozy_day {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+#slideshow-container {
+    background-color: #b9ada2;
+    width: 1200px;
+    margin: auto;
+}
+
+#bigimages { margin-right: 100px;}
+#recipeinfo {padding: 100px;}
+#thumbnails {width: 840px; margin: auto; padding-top: 20px;}
+
+#chocolate_chip_cookies_thumb, #chocolate_crinkle_cookies_thumb, #cinnamon_rolls_thumb, #banana_bread_thumb 
+{width: 100px;}
+
+ #chocolate_crinkle_cookies, #cinnamon_rolls, #banana_bread, #chocolate_crinkle_cookies_info, #cinnamon_rolls_info, #banana_bread_info 
+{display: none;}
+
+#bigimages {float: left;}
+#recipeinfo {float: right; width: 500px;}
+#thumbnails {clear: both;}

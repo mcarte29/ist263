@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hosting & Holidays</title>
+        <link rel="stylesheet" href="project_styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function RecipesOFF() {
+                document.getElementById('chocolate_chip_cookies').style.display = 'none';
+                document.getElementById('chocolate_crinkle_cookies').style.display = 'none';
+                document.getElementById('cinnamon_rolls').style.display = 'none';
+                document.getElementById('banana_bread').style.display = 'none';
+
+                document.getElementById('chocolate_chip_cookies_info').style.display = 'none';
+                document.getElementById('chocolate_crinkle_cookies_info').style.display = 'none';
+                document.getElementById('cinnamon_rolls_info').style.display = 'none';
+                document.getElementById('banana_bread_info').style.display = 'none';
+            }
+
+            function ChocolateChipCookiesON() {
+                document.getElementById('chocolate_chip_cookies').style.display = 'block';
+                document.getElementById('chocolate_chip_cookies_info').style.display = 'block';
+            }
+            function ChocolateCrinkleCookiesON() {
+                document.getElementById('chocolate_crinkle_cookies').style.display = 'block';
+                document.getElementById('chocolate_crinkle_cookies_info').style.display = 'block';
+            }
+            function CinnamonRollsON() {
+                document.getElementById('cinnamon_rolls').style.display = 'block';
+                document.getElementById('cinnamon_rolls_info').style.display = 'block';
+            }
+            function BananaBreadON() {
+                document.getElementById('banana_bread').style.display = 'block';
+                document.getElementById('banana_bread_info').style.display = 'block';
+            }
+        </script>
+    </head>
+
+    <body>
+        <nav>
+            <a href="the_occassion.html">The Occasion</a> <span>|</span>
+            <a href="cozyday-collegelife.html">Cozy Day & College Life</a> <span>|</span>
+            <a href="home.html">Home</a> 
+        </nav>
+        <h1> What's The Occassion?</h1>
+      
+        <div class="occasion_decription">
+            <article class="od_1">
+                <h2>Hosting & Holidays</h2>
+                <img src="../project/images-p/christmas-tree.jpg" class= "christmas_tree" alt="Christmas Tree">
+                <p>Holidays and hosting have always been some of the moments where choosing what to bake feels the most important and sometimes the most stressful. The holidays is my favorite time to give gifts and what better way to bring in the holidays than through a nice variety of freshly baked cookies.</p>
+            </article>
+            <article class="od_2"> 
+                <h2>Cozy Day & College Life</h2>
+                <img src="../project/images-p/cozy.jpg" class="cozy_day" alt="Cozy day">
+                <p>College life can be stressful, but there's nothing quite like a warm, freshly baked cookie to lift your spirits. Whether you're studying for exams or just need a quick pick-me-up, these recipes are perfect for any cozy day on campus.</p>
+            </article>
+        </div>
+        <h2>Favorite Recipes</h2>
+
+        <div id="slideshow-container">
+            <div id="bigimages">
+                <img src="../project/images-p/cookies.jpeg" alt="Chocolate Chip Cookies" id="chocolate_chip_cookies">
+                <img src="../project/images-p/chocolate-crinkle-cookies.jpg" alt="Chocolate Crinkle Cookies" id="chocolate_crinkle_cookies">
+                <img src="../project/images-p/cinnamon-rolls.jpg" alt="Cinnamon Rolls" id="cinnamon_rolls">
+                <img src="../project/images-p/banana-bread.png" alt="Banana bread" id="banana_bread">
+            </div>
+            <div id= "recipeinfo">
+                <h1>Recipe Book</h1>
+
+                <div id="chocolate_chip_cookies_info">
+                    <h2>Chocolate Chip Cookies Recipe: The Holidays</h2>
+                    <P> 
+                    These classic chocolate chip cookies are an all time classic in my house and a staple that I can use in any cookie box during the holidays or even bringig over to somones house as a gift. 
+                    </P>
+                    <ul>
+                        <li>1 cup sugar</li>
+                        <li>1 cup dark brown sugar</li>
+                        <li>2 eggs</li>
+                        <li>1 cup browned butter</li>
+                        <li>2 tsp vanilla extract</li>
+                        <li>2 ½ cups flour</li>
+                        <li>1 tsp salt</li>
+                        <li>1 tsp baking soda</li>
+                        <li>1 bag semi-sweet chocolate chips</li>
+                    </ul>
+                    <h2>Directions:</h2>
+                    <p> Brown two sticks of butter until a golden brown shade on medium heat so it doesn’t burn. Set that on the counter to cool down. Now that hat is cool in a big bowl combine the two sugars and the eggs. Then incorporate the vanilla and the browned butter until fully combined. Now mix in all dry ingredients and chocolate chips. Heat the oven to 365 degree for 12 minutes.</p>
+                </div>
+                    
+                <div id="chocolate_crinkle_cookies_info">
+                    <h2>Chocolate Crinkle Cookies Recipe: The Holidays</h2>
+                    <P> 
+                    These classic chocolate chip cookies are an all time classic in my house and a staple that I can use in any cookie box or even bringig over to somones house as a gift. 
+                    </P>
+                    <ul>
+                        <li>½ cup (60g) cocoa powder</li>
+                        <li>1 cup (200g) sugar</li>
+                        <li>¼ cup (60ml) vegetable oil</li>
+                        <li>2 eggs (room temperature)</li>
+                        <li>1 tsp vanilla extract</li>
+                        <li>1 tsp coffee</li>
+                        <li>1 cup (150g) flour</li>
+                        <li>1 tsp baking powder</li>
+                        <li>½ tsp salt</li>
+                    </ul>
+                    <h2>Directions:</h2>
+                    <p>Combine all ingredients together. Once the dough is formed scoop them into mini balls and refrigerate them for 1 hour to hold their shape. Once refrigerated roll them in powdered sugar. Preheat the oven to 350 degrees and bake for 25 minutes or until you have a clear tooth pick</p>
+                </div>
+                <div id="cinnamon_rolls_info">
+                    <h2>Cinnamon Rolls Recipe: A Cozy Day In</h2>
+                    <P> 
+                    These cinnamon rolls are the perfect treat to make for a cozy day in or even to have at a sleepover when hosting friends. They are soft, fluffy, and packed with cinnamon flavor that will make your taste buds dance.
+                    </P>
+                    <h2>Ingredients</h2>
+                    <h3>Yeast Mixture</h3>
+                    <ul>
+                        <li>¾ cup lukewarm water</li>
+                        <li>2 ½ tsp active yeast</li>
+                        <li>1 tbsp sugar</li>
+                    </ul>
+
+                    <h3>Dough</h3>
+                    <ul>
+                        <li>3 cups all-purpose flour</li>
+                        <li>1/3 cup sugar</li>
+                        <li>1 egg + 1 egg yolk, whisked</li>
+                        <li>4 tbsp melted butter</li>
+                        <li>1 tsp kosher salt</li>
+                        <li>Yeast mixture</li>
+                    </ul>
+
+                    <h3>Filling</h3>
+                    <ul>
+                        <li>1 cup brown sugar</li>
+                        <li>2 tbsp cinnamon</li>
+                        <li>Dash of nutmeg</li>
+                        <li>1/8 tsp ground cloves</li>
+                        <li>1/3 cup softened butter</li>
+                    </ul>
+
+                    <h3>Frosting</h3>
+                    <ul>
+                        <li>4 oz cream cheese</li>
+                        <li>3 tbsp softened butter</li>
+                        <li>1 tsp vanilla</li>
+                        <li>¾ cup powdered sugar</li>
+                        <li>Coffee creamer (add 1 tbsp at a time until desired consistency; French vanilla works well)</li>
+                    </ul>
+
+                    <h2>Directions</h2>
+                    <p>In a small bowl mixt together the yeast mixture and set that aside and let that rest for 10 minutes. Then add in a separate bowl all of your ingredients, adding in your yeast mixture in last. Mix this together until it resembles a shaggy dough. Put this dough on a lightly floured surface and kneed it for about 8-10 minutes. Once smooth add this to a lightly oiled bowl. Let this rest for an 1 ½ hours to 2 hours or until doubled in size. Add to a lightly floured surface and roll out your dough. To about half an inch thick. Mixtogether your filling and spread it onto your dough. Roll the dough up tightly and cut about 6-8 rolls depending on size. Add a tbsp of heavy cream to each roll. Bake these at 350 for 25-30 minutes. Take them out of the oven and add your frosting. </p>            
+                </div>
+
+                <div id="banana_brad_info">
+                    <h2>Banana Bread Recipe: College Life</h2>
+                    <p>
+                    This banana bread recipe is a lifesaver for college students. It's a great way to use up overripe bananas and makes for a delicious breakfast treat or a comforting snack during late-night study sessions.
+                    </p>
+                    <ul>
+                        <li>3 ripened bananas</li>
+                        <li>½ cup butter</li>
+                        <li>1 cup brown sugar</li>
+                        <li>1 egg</li>
+                        <li>1 tsp vanilla extract</li>
+                        <li>2 cups flour</li>
+                        <li>1 tsp baking soda</li>
+                        <li>½ tsp salt</li>
+                    </ul>
+
+                    <h2>Directions:</h2>
+                    <p>Brown the butter on medium heat. Mash the ripened bananas in a bowl. Mix in the brown sugar and the browned butter. Mix in the egg and vanilla and once incorporated add in all the dry ingredients.Preheat the oven for 350 degrees and bake for 1 hour. </p>
+                </div>
+                <div id="thumbnails">
+                    <img src="../project/images-p/cookies.jpeg" alt="Chocolate Chip Cookies" id="chocolate_chip_cookies_thumb" onclick="RecipesOFF(); ChocolateChipCookiesON();">
+                    <img src="../project/images-p/chocolate-crinkle-cookies.jpg" alt="Chocolate Crinkle Cookies" id="chocolate_crinkle_cookies_thumb" onclick="RecipesOFF(); ChocolateCrinkleCookiesON();">
+                    <img src="../project/images-p/cinnamon-rolls.jpg" alt="Cinnamon Rolls" id="cinnamon_rolls_thumb" onclick="RecipesOFF(); CinnamonRollsON();">
+                    <img src="../project/images-p/banana-bread.png" alt="Banana bread" id="banana_bread_thumb" onclick="RecipesOFF(); BananaBreadON();">
+                </div>
+            </div> 
+
+       
+    </body>
+</html>
