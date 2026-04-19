@@ -4,42 +4,34 @@ body {
     font-family: arial, sans-serif; 
     }
 
- a:link{color: #855832;}
+a:link{color: #855832;}
 
- h1 {
+h1 {
     color: #362925;
-    font-size: 2em;
- }
+    font-size: 2em;}
 
- h2, h3, h4 {
+h2, h3, h4 {
     color: #362925;
-    font-size: 1em;
- }
+    font-size: 1em;}
 
- .evenrow {
-    background-color: mistyrose;
-    }
+.evenrow {
+    background-color: mistyrose;}
 
- nav {
+nav {
     background-color: #dbc9b8;
     padding: 10px;
-    margin-bottom: 30px;
- }
+    margin-bottom: 30px;}
 
  nav a:hover {
-    color: #a17e61;
-}
+    color: #a17e61;}
 
 nav a:link {
-    color: #74482a;
-}
+    color: #74482a;}
 
 footer p {
-    margin: 2px;
-}
+    margin: 2px;}
 .tagline {
-   float: right;
-}
+   float: right;}
 
 .address {display: flex; background-color: #ffffff; border-radius: 1em; margin:20px;}
 .address-p1, .address-p2  {flex: 1; padding: 20px;}
