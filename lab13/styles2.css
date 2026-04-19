@@ -1,6 +1,6 @@
 body {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #cf7554;
+    color: #1e120d;
     font-family: arial, sans-serif; 
     }
 
@@ -18,15 +18,15 @@ h2, h3, h4 {
     background-color: mistyrose;}
 
 nav {
-    background-color: #d99278;
+    background-color: #93462a;
     padding: 10px;
     margin-bottom: 30px;}
 
  nav a:hover {
-    color: #442013;}
+    color: #ffffff;}
 
 nav a:link {
-    color: #93462a;}
+    color: #d99278;}
 
 footer p {
     margin: 2px;}
