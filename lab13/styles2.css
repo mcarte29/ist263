@@ -4,15 +4,15 @@ body {
     font-family: arial, sans-serif; 
     }
 
- a:link{color: #93462a;}
+ a:link{color: #855832;}
 
  h1 {
-    color: #1e120d;
+    color: #362925;
     font-size: 2em;
  }
 
  h2, h3, h4 {
-    color: #1e120d;
+    color: #362925;
     font-size: 1em;
  }
 
@@ -21,17 +21,17 @@ body {
     }
 
  nav {
-    background-color: #d99278;
+    background-color: #dbc9b8;
     padding: 10px;
     margin-bottom: 30px;
  }
 
  nav a:hover {
-    color: #442013;
+    color: #a17e61;
 }
 
 nav a:link {
-    color: #93462a;
+    color: #74482a;
 }
 
 footer p {
