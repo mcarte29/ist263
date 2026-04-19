@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #D99278;
     color: #000000;
     font-family: arial, sans-serif; 
     }
@@ -46,6 +46,10 @@ footer p {
 .form {display: flex; flex-wrap: wrap; background-color: #ffffff; border-radius: 1em; margin:20px;}
 .form-p1 {flex: 1;padding: 20px;} 
 .form-p2 {flex: 2; padding: 20px;}
+
+.contact {
+    background-color: #D99278;
+}
 
 .skill-title { text-align: center;}
 .firstrow { display: flex; border-radius: 1em; padding: 20px;}
