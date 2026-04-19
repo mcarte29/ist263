@@ -4,29 +4,29 @@ body {
     font-family: arial, sans-serif; 
     }
 
-a:link{color: #855832;}
+a:link{color: #93462a;}
 
 h1 {
-    color: #362925;
+    color: #1e120d;
     font-size: 2em;}
 
 h2, h3, h4 {
-    color: #362925;
+    color: #1e120d;
     font-size: 1em;}
 
 .evenrow {
     background-color: mistyrose;}
 
 nav {
-    background-color: #dbc9b8;
+    background-color: #d99278;
     padding: 10px;
     margin-bottom: 30px;}
 
  nav a:hover {
-    color: #a17e61;}
+    color: #442013;}
 
 nav a:link {
-    color: #74482a;}
+    color: #93462a;}
 
 footer p {
     margin: 2px;}
