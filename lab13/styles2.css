@@ -17,6 +17,9 @@ h2, h3, h4 {
 .evenrow {
     background-color: mistyrose;}
 
+.tr {
+    background-color: #ffffff;}
+    
 nav {
     background-color: #93462a;
     padding: 10px;
@@ -39,9 +42,6 @@ footer p {
 .form-p1 {flex: 1;padding: 20px;} 
 .form-p2 {flex: 2; padding: 20px;}
 
-.contact {
-    background-color: #b8b6b4;
-}
 
 .skill-title { text-align: center;}
 .firstrow { display: flex; border-radius: 1em; padding: 20px;}
