@@ -31,11 +31,12 @@
 #slideshow-container {
     background-color: #b9ada2;
     width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
-#bigimages { margin-right: 100px;}
-#recipeinfo {padding: 100px;}
+#bigimages img {max-width: 100%}
+#bigimages {margin-right: 100px; width: 40%;}
+#recipeinfo {padding: 100px;width: 40%;}
 #thumbnails {width: 840px; margin: auto; padding-top: 20px;}
 
 #chocolate_chip_cookies_thumb, #chocolate_crinkle_cookies_thumb, #cinnamon_rolls_thumb, #banana_bread_thumb 
@@ -44,9 +45,10 @@
  #chocolate_crinkle_cookies, #cinnamon_rolls, #banana_bread, #chocolate_crinkle_cookies_info, #cinnamon_rolls_info, #banana_bread_info 
 {display: none;}
 
-#bigimages {float: left;}
-#recipeinfo {float: right; width: 500px;}
+#bigimages {}
+#recipeinfo {}
 #thumbnails {clear: both;}
+#flex-container {display: flex;}
 
 nav {
     background-color: #b9ada2;
