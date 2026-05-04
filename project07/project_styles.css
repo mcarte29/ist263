@@ -1,0 +1,234 @@
+body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        background-color: #dcd6d0;
+        color: #513116;
+         }
+
+
+/*this is going to make the navigation stack once it is on a smaller screen */
+@media only screen and (max-width: 768px) {
+    nav a {display: block;width: 100%; padding: 5px; margin-bottom:5px}
+    nav span { display:none;}
+   }
+
+   
+/* the occassion page first flex box for the descriptions*/
+.occasion_decription {
+    display: flex;
+    background-color: #b9ada2;
+    border-radius: 1em;
+    margin: 20px 0;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.od_1, .od_2 {
+    flex: 1 1 350px;
+    padding: 20px;
+    background-color: #e8e3dd;
+    border: 3px solid #745a45;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.christmas_tree, .cozy_day {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #745a45;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 15px;
+}
+#slideshow-container {
+    background-color: #b9ada2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#bigimages {
+    flex: 1 1 300px;
+}
+
+#bigimages img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #392d22;
+    border-radius: 8px;
+}
+
+#recipeinfo {
+    flex: 1 1 300px;
+    padding: 20px;
+}
+
+#thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+#chocolate_chip_cookies_thumb, #chocolate_crinkle_cookies_thumb, #cinnamon_rolls_thumb, #banana_bread_thumb {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #745a45;
+    border-radius: 4px;
+}
+
+#chocolate_crinkle_cookies, #cinnamon_rolls, #banana_bread, #chocolate_crinkle_cookies_info, #cinnamon_rolls_info, #banana_bread_info {
+    display: none;
+}
+
+
+#thumbnails {clear: both;}
+#flex-container {display: flex;}
+
+nav {
+    background-color: #b9ada2;
+    padding: 15px;    
+    margin-bottom: 30px; 
+    font-size: 1.2em; }
+
+nav a:link {
+    color: #3b2e23;
+}
+nav a:hover {
+    color: #decbbb; }
+
+h1 {
+    font-family: "Fascinate Inline", system-ui;
+}
+.recipe-cards {
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.recipe-cards article {
+    width: 500px;
+    padding: 15px;
+    border: 3px solid #745a45;
+    border-radius: 8px;
+    background-color: #e8e3dd;
+    overflow: hidden;
+}
+.recipe-cards article a {
+    display: block;
+    background-color: #745a45;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    margin: 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+.recipe-cards article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.recipe-cards article a:hover {
+    background-color: #978373;
+}
+
+.intro {margin: 20px;}
+
+main {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer {
+    margin: 20px;
+}
+
+.skip {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #513116;
+    color: #fff;
+    border: 2px solid #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 100;
+    transition: top 0.2s;
+}
+
+.skip:focus {
+    top: 0;
+}
+
+.banner-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    max-width: 2300px;
+}
+
+.banner-left {
+    width: 350px;
+    height: auto;
+    display: block;
+}
+
+.banner-right {
+    width: 220px;
+    height: auto;
+    display: block;
+}
+
+.banner-img {
+    height: 300px;
+    width: 60%;
+    display: block;
+}
+
+.video-section {
+    background-color: #b9ada2;
+    border-radius: 1em;
+    margin: 20px 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.video-section h2 {
+    margin-top: 0;
+    color: #513116;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 20px auto 0;
+    aspect-ratio: 16 / 9;
+    border: 3px solid #745a45;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
