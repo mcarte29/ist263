@@ -9,6 +9,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+        <script>
+            function showModal(event) {
+                event.preventDefault();
+                document.getElementById('successModal').style.display = 'flex';
+                setTimeout(function() {
+                    event.target.submit();
+                }, 2000);
+            }
+            function closeModal() {
+                document.getElementById('successModal').style.display = 'none';
+            }
+        </script>
     </head>
 
     <body>
@@ -73,6 +85,13 @@
                         
                         <br><input type="submit" value="Send Message" class="form-submit">
                     </form>
+                    <div id="successModal" class="modal">
+                        <div class="modal-content">
+                            <h3>Message Sent!</h3>
+                            <p>Thanks for your message! I'll get back to you soon.</p>
+                            <button onclick="closeModal()" class="form-submit">Close</button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
