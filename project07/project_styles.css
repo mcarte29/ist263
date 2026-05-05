@@ -3,14 +3,6 @@ body {
         background-color: #dcd6d0;
         color: #513116;
          }
-
-
-/*this is going to make the navigation stack once it is on a smaller screen */
-@media only screen and (max-width: 768px) {
-    nav a {display: block;width: 100%; padding: 5px; margin-bottom:5px}
-    nav span { display:none;}
-   }
-
    
 /* the occassion page first flex box for the descriptions*/
 .occasion_decription {
@@ -300,4 +292,95 @@ footer {
 
 .form-submit:hover {
     background-color: #978373;
+}
+
+/*this is going to make the navigation stack once it is on a smaller screen */
+@media only screen and (max-width: 768px) {
+    /* Nav stacks vertically */
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    nav span { 
+        display: none; 
+    }
+    
+    /* Banner: hide side images on mobile, banner fills width */
+    .banner-row {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .banner-left,
+    .banner-right {
+        display: none;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+    
+    /* Recipe cards full width */
+    .recipe-cards article {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .recipe-cards article img {
+        height: 150px;
+    }
+    
+    .recipe-cards article h3 {
+        font-size: 1.1em;
+    }
+    
+    /* Occasion boxes stack */
+    .occasion_decription {
+        flex-direction: column;
+    }
+    
+    .od_1, .od_2 {
+        flex: 1 1 100%;
+    }
+    
+    /* Slideshow stacks */
+    #flex-container {
+        flex-direction: column;
+    }
+    
+    #bigimages,
+    #recipeinfo {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    /* Smaller thumbnails */
+    #chocolate_chip_cookies_thumb, 
+    #chocolate_crinkle_cookies_thumb, 
+    #cinnamon_rolls_thumb, 
+    #banana_bread_thumb {
+        width: 70px;
+        height: 70px;
+    }
+    
+    /* Form inputs full width */
+    .form input[type="text"],
+    .form input[type="email"],
+    .form select,
+    .form textarea {
+        width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+    
+    /* Smaller padding on sections */
+    .video-section,
+    .form-section {
+        padding: 15px;
+    }
 }
